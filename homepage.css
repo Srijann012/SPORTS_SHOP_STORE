@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image:url(./images/background-stadiums.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 30px 100px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+.shop-title{
+   font-size: 30px; 
+   color: rgb(205, 156, 91);
+   pointer-events: none;
+   text-shadow: 0 0 2px #00e6e6,
+                0 0 2px #00e6e6,
+                0 0 2px #00e6e6,
+                0 0 2px #00e6e6;
+ display: inline-block;   
+ position:relative;
+ margin-right: 270px;
+
+}
+
+.shop-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    height: 3px;
+    background-color: #00e6e6;
+    box-shadow: 0 0  10px #ff9933, 0 0 20px #00e6e6;
+}
+
+.navigation a {
+text-decoration: none;
+color: bisque;
+padding: 6px 15px;
+border-radius: 20px;
+margin: 0 10px;
+font-weight: 600; 
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background-color:rgb(124, 60, 7) ;
+    color: blanchedalmond;
+}
+
+.parallax{
+    position:relative;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#text {
+    position:absolute;
+    font-size: 50px;
+    color:rgb(232, 161, 108);
+    text-shadow: 0 0 2px #00e6e6,
+                0 0 2px #00e6e6,
+                0 0 2px #00e6e6,
+                0 0 2px #00e6e6;
+}
+
+#sports1 {
+    position:absolute;
+    width: 450px;
+    bottom:0px;
+    right:40px;
+}
+
+#sports2{
+    position:absolute;
+    width: 450px;
+    bottom:0px;
+    left:40px;
+}
+
+.sec{
+    padding: 80px 100px;
+    background-color: rgba(0,0,0,0.5); 
+    color: bisque;
+}
+
